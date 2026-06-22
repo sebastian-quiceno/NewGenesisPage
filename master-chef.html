@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- TODO: agregar OG tag y keywords -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Esta pagina es de newGenesis" />
+    <meta name="keywords" content="software de bla bla bla" />
+
+    <title>MasterChef gestione su restaurante eficientemente</title>
+    <link rel="stylesheet" href="css/masterChef.css" />
+    <link rel="icon" href="images/NewGenesisFavicon.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <input class="header__menu-checkbox" type="checkbox" id="open-menu" />
+      <label class="header__open-nav-button" for="open-menu" role="button">
+        <img src="./images/lucide/menu.svg" alt="Abrir menú" />
+      </label>
+
+      <div class="header__logo-container">
+        <img class="header__logo" src="images/NewGenesis.png" alt="Logo" />
+        <h2>New Genesis</h2>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#">Inicio</a></li>
+
+          <li class="header__nav-item">
+            <input
+              class="header__menu-checkbox"
+              type="checkbox"
+              id="productos-menu"
+            />
+            <label
+              class="header__open-productos-button item--productos"
+              for="productos-menu"
+              role="button"
+              >Productos y Precios
+              <img
+                src="images/lucide/chevron-down.svg"
+                alt="icono para mas opciones"
+              />
+            </label>
+          </li>
+
+          <li class="header__nav-item"><a href="#">Contactenos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-section">
+      <section class="hero">
+        <div class="hero__wrapper">
+          <img src="images/MasterChefLogo.png" alt="Logo de MasterChef" />
+          <h2>El software que conecta cada área de tu restaurante.</h2>
+          <h3>
+            Software especializado en Restaurantes, Bares, Hoteles y Heladerías
+          </h3>
+        </div>
+      </section>
+
+      <section class="description">
+        <h1>Coordina tu restaurante con MasterChef</h1>
+        <div class="description-wrapper">
+          <div class="description-wrapper__data-container">
+            <p>
+              Gestiona mesas, pedidos, cocina, inventarios, facturación y
+              atención al cliente en una única plataforma diseñada para
+              restaurantes, bares, cafeterías y negocios de comida rápida.
+            </p>
+            <button onclick="location.href='#propromotion-secction'">Ver Programa</button>
+            <h2>MasterChef</h2>
+          </div>
+          <div class="description-wrapper__img-container">
+            <img src="images/Mesero tomando orden.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="characteristics">
+        <h2>Diseñado para la velocidad del servicio</h2>
+        <div>
+          <p>
+            MasterChef cuenta con una interfaz táctil moderna e intuitiva,
+            optimizada para computadores. Tus colaboradores pueden trabajar
+            desde cualquier punto del restaurante, con acceso inmediato a la
+            información que necesitan.
+          </p>
+          <img src="" alt="" />
+        </div>
+
+        <div class="characteristics__cards-wrapper">
+          <div class="characteristics__card">
+            <img
+              src="images/interfaz.png"
+              alt="Imagen representantiva del software"
+            />
+            <h3>Interfaz táctil inteligente</h3>
+            <p>
+              Adaptable a diferentes dispositivos y resoluciones para una
+              experiencia rápida, cómoda y eficiente.
+            </p>
+          </div>
+          <div class="characteristics__card mid-card">
+            <img
+              src="images/Orden.jpg"
+              alt="Imagen representativa para operacion en tiempo real"
+            />
+            <h3>Operación en tiempo real</h3>
+            <p>
+              Toda la información se actualiza de forma instantánea para
+              cajeros, meseros, personal de cocina y administración.
+            </p>
+          </div>
+          <div class="characteristics__card">
+            <img
+              src="images/seguridad.jpg"
+              alt="Imagen representativa de Roles y seguridad"
+            />
+            <h3>Acceso por Roles</h3>
+            <p>
+              Cada usuario cuenta con tareas específicas y permisos asignados de
+              acuerdo con sus responsabilidades.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="promotion" id="propromotion-secction">
+        <div class="promotion__wrapper">
+          <div class="promotion__data">
+            <h2 class="promotion__title">MasterChef™</h2>
+            <p class="promotion__text">
+              Optimice los pedidos, las mesas y la comunicación de su equipo en
+              tiempo real con MasterChef hoy mismo.
+            </p>
+            <h3 class="promotion__price">$ 300.000 <span> cop</span></h3>
+            <p class="promotion__price-text">
+              Disfrute de todas las caracteristicas del programa
+            </p>
+            <div class="promotion__button-container">
+              <button class="promotion__button" >Comprar</button>
+            </div>
+            <div class="promotion__link-container">
+              <a class="promotion__more-link" href="#products-section">Ver versiones</a>
+            </div>
+          </div>
+
+          <div class="promotion__video-container">
+            <iframe
+              class="promotion__video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/x91MPoITQ3I?si=kaB_ejgJW4iiujca"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h3 class="promotion__video-description">Video mostrativo</h3>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="info1" id="info1-section">
+        <div class="info1__wrapper">
+          <img
+            class="info1__img"
+            src="images/mesaas.jpg"
+            alt="Mesas de un restaurante"
+          />
+          <div class="info1__data">
+            <h2 class="info1__title">Control total de mesas y salones</h2>
+            <p class="info1__text">
+              Administra fácilmente todos los espacios de tu restaurante
+              mediante una vista gráfica e intuitiva.
+            </p>
+            <ul class="info1__list">
+              <li class="info1__list-item">
+                <span>Manejo de salones: </span>Configura múltiples ambientes,
+                zonas o áreas de atención según las necesidades de tu negocio.
+              </li>
+              <li class="info1__list-item">
+                <span>Administración de mesas: </span>Visualiza mesas libres,
+                ocupadas o reservadas, conoce el consumo acumulado y realiza
+                movimientos entre mesas con facilidad.
+              </li>
+              <li class="info1__list-item">
+                <span>Reservas inteligentes: </span>Gestiona reservas mediante
+                una interfaz sencilla y organizada para mejorar la experiencia
+                de tus clientes.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="info2">
+        <div class="info2__wrapper">
+          <div class="info2__data">
+            <h2 class="info2__title">
+              Meseros más productivos, clientes mejor atendidos
+            </h2>
+            <p class="info2__text">
+              Los meseros pueden tomar pedidos directamente desde tablets o
+              dispositivos móviles para tener una comunicación directa con
+              cocina y no tener la necesidad de desplazarse constantemente.
+            </p>
+            <ul class="info2__list">
+              <li class="info2__list-item">
+                <span>Toma de pedidos en mesa: </span>
+                Registra órdenes de forma rápida, precisa y envíalas
+                directamente a cocina desde cualquier dispositivo.
+              </li>
+              <li class="info2__list-item">
+                <span>Gestión de propinas: </span>
+                Calcula y administra propinas individuales o consolidadas de
+                forma automática.
+              </li>
+              <li class="info2__list-item">
+                <span>Seguimiento de pedidos:</span>
+                Consulta el estado de cada producto y conoce qué pedidos están
+                pendientes, en preparación o entregados.
+              </li>
+            </ul>
+          </div>
+          <img
+            class="info2__img"
+            src="images/waiter.jpg"
+            alt="Mesas de un restaurante"
+          />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="info3">
+        <div class="info3__wrapper">
+          <img
+            class="info3__img"
+            src="images/bill.jpg"
+            alt="Mesas de un restaurante"
+          />
+          <div class="info3__data">
+            <h2 class="info3__title">Facturación rápida y flexible</h2>
+            <p class="info3__text">
+              Optimiza el proceso de cobro y ofrece una mejor experiencia a tus
+              clientes.
+            </p>
+            <ul class="info3__list">
+              <li class="info3__list-item">
+                <span>Múltiples formas de pago: </span>Acepta diferentes métodos
+                de pago en una misma factura.
+              </li>
+              <li class="info3__list-item">
+                <span>Administración de mesas: </span>Múltiples formas de pago:
+                Acepta diferentes métodos de pago en una misma factura.
+              </li>
+              <li class="info3__list-item">
+                <span>Promociones y precios especiales: </span>Configura listas
+                de precios, descuentos y campañas como hora feliz o promociones
+                de dos por uno.
+              </li>
+              <li class="info3__list-item">
+                <span>Precuenta: </span>Permite a tus clientes validar el
+                consumo antes de emitir la factura final.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="products-prices" id="products-section">
+        <h2 class="products-prices__title">Versiones y Precios</h2>
+        <div class="products-prices__cards-containter">
+          <div class="products-prices__card">
+            <img src="images/caratulaMasterChef.png" alt="" />
+            <div class="data-card-containter">
+              <h2>Nombre Producto</h2>
+              <h3>Presio</h3>
+              <h2>$ 300.000 <span>cop</span></h2>
+              <h3>renovacion</h3>
+              <h2>$ 300.000 <span>cop</span></h2>
+            </div>
+            <button onclick="location.href='#product1'">Conocer mas</button>
+          </div>
+
+          <div class="products-prices__card">
+            <img src="images/rellenoImage.jpg" alt="" />
+            <div class="data-card-containter">
+              <h2>Nombre Producto</h2>
+              <h3>Presio</h3>
+              <h2>$ 300.000 <span>cop</span></h2>
+              <h3>renovacion</h3>
+              <h2>$ 300.000 <span>cop</span></h2>
+            </div>
+            <button onclick="location.href='#product2'">Conocer mas</button>
+          </div>
+
+          <div class="products-prices__card">
+            <img src="images/rellenoImage.jpg" alt="" />
+            <div class="data-card-containter">
+              <h2>Nombre Producto</h2>
+              <h3>Presio</h3>
+              <h2>$ 300.000 <span>cop</span></h2>
+              <h3>renovacion</h3>
+              <h2>$ 300.000 <span>cop</span></h2>
+            </div>
+            <button onclick="location.href='#product3'">Conocer mas</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="product1__wrapper" id="product1">
+          <div class="product1__sidebar">
+            <h2>PRODUCTO</h2>
+          </div>
+          <div class="product1__data">
+            <h2 class="product1__title">MasterChef</h2>
+            <ul class="product1__list">
+              <li>Creacion de ilimitado numero de empresas</li>
+              <li>Perfiles de usuarios y seguridad</li>
+              <li>Agenda Empresarial</li>
+              <li>Centros y sub-centros de costos</li>
+              <li>Contabilidad</li>
+              <li>Analisis Financiero y de costos</li>
+              <li>Contabilidad</li>
+              <li>Analisis Financiero y de Costos</li>
+              <li>Tesoreria</li>
+              <li>Certificados tributarios</li>
+              <li>Cuentas por cobrar y por pagar</li>
+              <li>Nomina gratis - Procesos Automaticos</li>
+              <li>Editor de Reportes</li>
+              <li>New Pyme Excel</li>
+              <li>Presupuesto</li>
+              <li>Graficos e Informes Dinamicos</li>
+              <li>Activos</li>
+              <li>Concilacion Bancaria</li>
+              <li>Exportar Informacion</li>
+              <li>Consolidacion de Empresas</li>
+              <li>Solucion de Business Intelligence</li>
+              <li>Medios Magneticos DIAN</li>
+              <li>Modulos Auditoria</li>
+              <li>Video Tutoriales (Mas de 40)</li>
+              <li>Manual de usuario</li>
+              <li>Soporte y Garantia por 1 año</li>
+            </ul>
+            <h2 class="hidden-title">Nombre del producto</h2>
+          </div>
+        </div>
+
+        <div class="product1__wrapper" id="product2">
+          <div class="product1__sidebar">
+            <h2>PRODUCTO</h2>
+          </div>
+          <div class="product1__data">
+            <h2 class="product1__title">MasterChef</h2>
+            <ul class="product1__list">
+              <li>Creacion de ilimitado numero de empresas</li>
+              <li>Perfiles de usuarios y seguridad</li>
+              <li>Agenda Empresarial</li>
+              <li>Centros y sub-centros de costos</li>
+              <li>Contabilidad</li>
+              <li>Analisis Financiero y de costos</li>
+              <li>Contabilidad</li>
+              <li>Analisis Financiero y de Costos</li>
+              <li>Tesoreria</li>
+              <li>Certificados tributarios</li>
+              <li>Cuentas por cobrar y por pagar</li>
+              <li>Nomina gratis - Procesos Automaticos</li>
+              <li>Editor de Reportes</li>
+              <li>New Pyme Excel</li>
+              <li>Presupuesto</li>
+              <li>Graficos e Informes Dinamicos</li>
+              <li>Activos</li>
+              <li>Concilacion Bancaria</li>
+              <li>Exportar Informacion</li>
+              <li>Consolidacion de Empresas</li>
+              <li>Solucion de Business Intelligence</li>
+              <li>Medios Magneticos DIAN</li>
+              <li>Modulos Auditoria</li>
+              <li>Video Tutoriales (Mas de 40)</li>
+              <li>Manual de usuario</li>
+              <li>Soporte y Garantia por 1 año</li>
+            </ul>
+            <h2 class="hidden-title">Nombre del producto</h2>
+          </div>
+        </div>
+
+        <div class="product1__wrapper" id="product3">
+          <div class="product1__sidebar">
+            <h2>PRODUCTO</h2>
+          </div>
+          <div class="product1__data">
+            <h2 class="product1__title">MasterChef</h2>
+            <ul class="product1__list">
+              <li>Creacion de ilimitado numero de empresas</li>
+              <li>Perfiles de usuarios y seguridad</li>
+              <li>Agenda Empresarial</li>
+              <li>Centros y sub-centros de costos</li>
+              <li>Contabilidad</li>
+              <li>Analisis Financiero y de costos</li>
+              <li>Contabilidad</li>
+              <li>Analisis Financiero y de Costos</li>
+              <li>Tesoreria</li>
+              <li>Certificados tributarios</li>
+              <li>Cuentas por cobrar y por pagar</li>
+              <li>Nomina gratis - Procesos Automaticos</li>
+              <li>Editor de Reportes</li>
+              <li>New Pyme Excel</li>
+              <li>Presupuesto</li>
+              <li>Graficos e Informes Dinamicos</li>
+              <li>Activos</li>
+              <li>Concilacion Bancaria</li>
+              <li>Exportar Informacion</li>
+              <li>Consolidacion de Empresas</li>
+              <li>Solucion de Business Intelligence</li>
+              <li>Medios Magneticos DIAN</li>
+              <li>Modulos Auditoria</li>
+              <li>Video Tutoriales (Mas de 40)</li>
+              <li>Manual de usuario</li>
+              <li>Soporte y Garantia por 1 año</li>
+            </ul>
+            <h2 class="hidden-title">Nombre del producto</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__brand">
+          <h3>©MasterChef</h3>
+          <p>Software gestor de restaurantes.</p>
+          <p>Expertos en gestión de restaurantes, Bares, Heladerías y comidas rápidas.</p>
+        </div>
+
+        <div class="footer__contact">
+          <h4>Contacto</h4>
+
+          <p><strong>Meri Lucia Lopez</strong></p>
+          <p>Asesora Ventas NewPyme</p>
+          <p>Medellín - Colombia</p>
+
+          <p>(+57) (4) 504 1389</p>
+          <p>310 829 4966</p>
+
+          <p>ventas@newpyme.co</p>
+          <p>www.newpyme.co</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2025 NewPyme. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
